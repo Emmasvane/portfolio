@@ -1,0 +1,43 @@
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 1rem;
+    text-align: center;
+    border-bottom: 1px solid #1F3140;
+}
+
+/* links */
+
+a {
+    text-decoration: none;
+    font-family: 'Spartan', sans-serif;
+    text-transform: uppercase;
+    margin-right: 4rem;
+}
+
+/* unvisited link */
+
+a:link {
+    color: #1F3140;
+}
+
+/* visited link */
+
+a:visited {
+    color: #1F3140;
+}
+
+/* mouse-over link */
+
+a:hover {
+    color: #BF7B54;
+}
+
+/* selected link */
+
+a:active {
+    color: #1F3140;
+}
+body {
+    background-color: #F2E5BD;
+}
