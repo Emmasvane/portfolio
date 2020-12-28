@@ -6,11 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emmas portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <header>
-    <nav class="nav container" class="hide_on_mobile">
-        <div id="menupunkter">
+   	<div class="hide_on_desktop">
+				<button id="burgermenu" aria-label="menu">
+					<svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+					</svg>
+				</button>
+			</div>
+    <nav class="nav container" >
+        <div id="menupunkter" class="hide_on_mobile">
             <a href="index.html">Forside</a>
             <a href="ommig.html">Om mig</a>
             <a href="portfolio.html">Portfolio</a>
