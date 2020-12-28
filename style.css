@@ -1,43 +1,71 @@
-header .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem 1rem;
-    text-align: center;
-    border-bottom: 1px solid #1F3140;
-}
+ header .container {
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 1rem 1rem;
+     text-align: center;
+     border-bottom: 1px solid #1F3140;
+ }
+ /* links */
 
-/* links */
+ a {
+     text-decoration: none;
+     font-family: 'Spartan', sans-serif;
+     text-transform: uppercase;
+     margin-right: 4rem;
+ }
+ /* unvisited link */
 
-a {
-    text-decoration: none;
-    font-family: 'Spartan', sans-serif;
-    text-transform: uppercase;
-    margin-right: 4rem;
-}
+ a:link {
+     color: #1F3140;
+ }
+ /* visited link */
 
-/* unvisited link */
+ a:visited {
+     color: #1F3140;
+ }
+ /* mouse-over link */
 
-a:link {
-    color: #1F3140;
-}
+ a:hover {
+     color: #BF7B54;
+ }
+ /* selected link */
 
-/* visited link */
-
-a:visited {
-    color: #1F3140;
-}
-
-/* mouse-over link */
-
-a:hover {
-    color: #BF7B54;
-}
-
-/* selected link */
-
-a:active {
-    color: #1F3140;
-}
-body {
-    background-color: #F2E5BD;
-}
+ a:active {
+     color: #1F3140;
+ }
+ body {
+     background-color: #F2E5BD;
+ }
+ #cirkel {
+     position: absolute;
+     top: 6.5vw;
+     left: 34vw;
+     width: 26vw;
+     height: 26vw;
+     background-image: url(billeder/cirkel.svg);
+     background-size: cover;
+ }
+ .drej {
+     animation-name: drej_kf;
+     animation-duration: 3s;
+     animation-iteration-count: 1;
+     animation-fill-mode: both;
+     animation-timing-function: cubic-bezier(.4, .56, .98, 1);
+ }
+ @keyframes drej_kf {
+     0% {
+         transform: translateX(-50vw) rotate(0deg);
+     }
+     100% {
+         transform: translateX(0vw) rotate(360deg);
+     }
+ }
+ #bag {
+     position: absolute;
+     top: 29.5vw;
+     left: 11vw;
+     width: 75vw;
+     height: 26vw;
+     background-image: url(billeder/bag.svg);
+     background-size: cover;
+ }
