@@ -1,0 +1,24 @@
+.icon {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+    padding: 5px 0 20px;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 12px;
+    font-weight: 100;
+    background-color: #BF7B54;
+    color: #faf3dc;
+}
+
+/* Navigation mobil og Ipad højformat */
+
+@media (max-width: 767px) {
+    .icon {
+        width: 40%;
+    }
+}
