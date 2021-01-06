@@ -5,32 +5,43 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emmas portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ommig.css">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
 </head>
 
-<header>
-    <nav class="nav container" class="hide_on_mobile">
-        <div id="menupunkter">
-            <a href="index.html">Forside</a>
-            <a href="ommig.html">Om mig</a>
-            <a href="portfolio.html">Portfolio</a>
-        </div>
-    </nav>
-</header>
-
 <body>
+    <header>
+        <nav class="nav container">
+            <div class="hide_on_desktop">
+                <button id="burgermenu" aria-label="menu">
+                    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+
+            <div id="menupunkter" class="hide_on_mobile">
+                <a href="index.html">Forside</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="ommig.html">Om mig</a>
+            </div>
+        </nav>
+    </header>
     <main>
         <section id="section_1">
-            <div></div>
-
+            <img src="billeder/mig.svg" alt="top_billede2">
         </section>
 
-        <section id="section_2">
 
-
-        </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="footer_grid container">
+            <p>Copyright &copy; 2021 Emma Louise Svane</p>
+            <div class="column">
+            </div>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 

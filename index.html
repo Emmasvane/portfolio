@@ -7,37 +7,83 @@
     <title>Emmas portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
 </head>
 
-<header>
-   	<div class="hide_on_desktop">
-				<button id="burgermenu" aria-label="menu">
-					<svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
-						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-					</svg>
-				</button>
-			</div>
-    <nav class="nav container" >
-        <div id="menupunkter" class="hide_on_mobile">
-            <a href="index.html">Forside</a>
-            <a href="ommig.html">Om mig</a>
-            <a href="portfolio.html">Portfolio</a>
-        </div>
-    </nav>
-</header>
 <body>
+    <header>
+        <nav class="nav container">
+            <div class="hide_on_desktop">
+                <button id="burgermenu" aria-label="menu">
+                    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+
+            <div id="menupunkter" class="hide_on_mobile">
+                <a href="index.html">Forside</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="ommig.html">Om mig</a>
+            </div>
+        </nav>
+    </header>
+
     <main>
-       <section id="section_1">
-           <div id="cirkel" class="drej"></div>
-           <div id="bag"></div>
-       </section>
+        <section id="section_1">
+            <div class="container">
+                <img src="billeder/cirkel.svg" alt="top_billede">
+                <div id="stor" class="blink3"></div>
+                <div id="mellem" class="blink2"></div>
+                <div id="lille" class="blink"></div>
+            </div>
+            <div class="container2">
+                <img src="billeder/bag.svg" alt="mellem_billede">
+            </div>
+        </section>
 
-       <section id="section_2">
+        <section id="section_2">
+            <div class="scrolling-wrapper">
+                <div class="card">
+                    <img src="billeder/1.jpg" alt="card1"></div>
+                <div class="card">
+                    <img src="billeder/2.jpg" alt="card2"></div>
+                <div class="card">
+                    <img src="billeder/3.jpg" alt="card3"></div>
+                <div class="card">
+                    <img src="billeder/4.jpg" alt="card4"></div>
+            </div>
+            <div class="container_2">
+                <img src="billeder/1.jpg" alt="billede1" class="image">
+                <h3>Grundlæggende web</h3>
+            </div>
+            <div class="container_3">
+                <img src="billeder/2.jpg" alt="billede2" class="image2">
+                <h3>Grundlæggende UX</h3>
+            </div>
+
+        </section>
+        <section id="section_3">
+            <div class="container_4">
+                <img src="billeder/3.jpg" alt="billede3" class="image3">
+                <h3>Grundlæggende animation</h3>
+            </div>
+            <div class="container_5">
+                <img src="billeder/4.jpg" alt="billede4" class="image4">
+                <h3>Grundlæggende indhold</h3>
+            </div>
+        </section>
 
 
-       </section>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="footer_grid container">
+        <p>Copyright &copy; 2021 Emma Louise Svane</p>
+			<div class="column">
+				</div>
+		</div>
+    </footer>
     <script src="script.js"></script>
 </body>
 
