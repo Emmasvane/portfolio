@@ -15,7 +15,7 @@ a {
     font-family: 'Vidaloka', serif;
     text-transform: uppercase;
     font-size: 22px;
-    margin-right: 4rem;
+    margin-right: 3rem;
 }
 
 /* unvisited link */
@@ -53,20 +53,53 @@ a:active {
     height: 3rem;
 }
 body {
-    background-color: #F2E5BD;
+    background-color: #EFE2BA;
 }
-img {
+.top img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2vw;
     width: 25%;
 }
+#section_2 img {
+    display: grid;
+    width: 100%;
+}
+#section_2 ul {
+    font-family: 'Spartan', sans-serif;
+    font-size: 14px;
+    color: #1F3140;
+    list-style: none;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 30px;
+}
+li {
+    margin-top: 2vw;
+}
+#section_2 h3 {
+    font-family: 'Spartan', sans-serif;
+    color: #1F3140;
+    text-align: center;
+    margin-left: 5vw;
+    margin-top: 3vw;
+    font-size: 1rem;
+    line-height: 30px;
+}
+.liste li,
+.liste2 li {
+    margin-top: 1vw;
+    font-size: 16px;
+}
 
 /* Navigation mobil og Ipad højformat */
 
 @media (max-width: 767px) {
     .hide_on_mobile {
+        display: none;
+    }
+    .top2 img {
         display: none;
     }
     .on {
@@ -88,6 +121,22 @@ img {
     #mig {
         top: 15.8vw;
     }
+    h2 {
+        font-size: 17px;
+    }
+    li {
+        font-size: 12px;
+    }
+    #section_2 ul {
+        margin: 5vw;
+        padding: 0;
+    }
+    .liste {
+        display: none;
+    }
+    #section_2 h3 {
+        margin-top: -7vw;
+    }
 }
 
 /* Navigation Ipad bredformat + desktop */
@@ -106,9 +155,38 @@ img {
     nav a {
         margin-left: 2rem;
     }
+    .top img {
+        position: relative;
+    }
+    .top2 img {
+        width: 82%;
+        position: absolute;
+        margin-top: 1.4vw;
+        margin-left: 8vw;
+        opacity: 0.5;
+    }
+    #section_2 .container {
+        display: grid;
+        margin-top: 2vw;
+        grid-template-columns: 0.6fr 1fr;
+        margin-left: 8vw;
+    }
+    #section_2 img {
+        margin-top: -4vw;
+    }
+    .liste {
+        position: relative;
+    }
+    .liste img {
+        position: absolute;
+        margin-top: 20vw;
+    }
+    .liste2 {
+        display: none;
+    }
 }
-@media (max-width: 950px) {
-    header .container {
-        border-bottom: none;
+@media (min-width: 872px) {
+    .top2 img {
+        margin-left: 8.4vw;
     }
 }
