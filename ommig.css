@@ -79,11 +79,12 @@ li {
     margin-top: 2vw;
 }
 #section_2 h3 {
+    padding: 1rem 1rem;
     font-family: 'Spartan', sans-serif;
     color: #1F3140;
     text-align: center;
     margin-left: 5vw;
-    margin-top: 3vw;
+    margin-top: -6vw;
     font-size: 1rem;
     line-height: 30px;
 }
@@ -131,11 +132,11 @@ li {
         margin: 5vw;
         padding: 0;
     }
-    .liste {
-        display: none;
-    }
     #section_2 h3 {
         margin-top: -7vw;
+    }
+    #section_2 ul img {
+        display: none;
     }
 }
 
@@ -174,19 +175,31 @@ li {
     #section_2 img {
         margin-top: -4vw;
     }
-    .liste {
-        position: relative;
+}
+@media (min-width: 672px) {
+    .top2 img {
+        margin-left: 8.4vw;
     }
-    .liste img {
-        position: absolute;
-        margin-top: 20vw;
-    }
-    .liste2 {
+    #section_2 ul img {
         display: none;
     }
 }
-@media (min-width: 872px) {
-    .top2 img {
-        margin-left: 8.4vw;
+@media (min-width: 1300px) {
+    .linje {
+        padding-top: 88px;
+        margin-top: -80px;
+        margin-left: 16.5vw;
+        max-width: 400px;
+        display: flex;
+        border-top: 1px solid #1F3140;
+    }
+    #section_2 ul img {
+        width: 60%;
+        margin-top: 5vw;
+        margin-left: 6vw;
+        border-radius: 25px;
+    }
+    #section_2 ul img {
+        display: block;
     }
 }
