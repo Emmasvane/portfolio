@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tema 4 Animation</title>
-    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="web.css">
     <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
@@ -23,13 +23,50 @@
             </div>
 
             <div id="menupunkter" class="hide_on_mobile">
+                <div id="logo">
+                    <a href="index.html"><img src="billeder/logo_1.svg" alt="Emma Louise Svane"></a>
+                </div>
                 <a href="index.html">Forside</a>
                 <a href="portfolio.html">Portfolio</a>
                 <a href="ommig.html">Om mig</a>
             </div>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <section id="section_1">
+            <h1>4. Grundlæggende Animation</h1>
+            <h2>Assetliste, designdokumentation &amp; individuelt spil</h2>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <img src="billeder/responsivesite.jpg" style="width:50%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="billeder/web2.jpg" style="width:50%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="billeder/web.jpg" style="width:50%">
+                </div>
+
+                <!--knapper-->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- cirkler i bunden -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </section>
+        <section id="section_2">
+
+        </section>
+    </main>
     <footer>
         <div class="footer_grid container">
             <div class="icon">

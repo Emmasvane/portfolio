@@ -20,7 +20,7 @@ h2 {
 }
 #stor {
     position: absolute;
-    top: 24vw;
+    top: 28vw;
     left: 12vw;
     width: 7vw;
     height: 10vw;
@@ -29,7 +29,7 @@ h2 {
 }
 #mellem {
     position: absolute;
-    top: 16vw;
+    top: 20vw;
     left: 69vw;
     width: 5vw;
     height: 7vw;
@@ -38,7 +38,7 @@ h2 {
 }
 #lille {
     position: absolute;
-    top: 9vw;
+    top: 16vw;
     left: 24vw;
     width: 3vw;
     height: 4vw;
@@ -51,6 +51,14 @@ h2 {
     margin-right: auto;
     margin-top: 2vw;
     width: 25%;
+}
+#logo img {
+    width: 8rem;
+    margin-bottom: -3vw;
+    margin-left: 2vw;
+}
+#logo {
+    width: 7rem;
 }
 
 /* Navigation mobil og Ipad højformat */
@@ -70,6 +78,9 @@ h2 {
         flex-direction: column;
         padding: 1.15rem;
         text-align: right;
+    }
+    #logo img {
+        margin-left: 57vw;
     }
     nav a {
         padding-top: 1rem;
@@ -255,5 +266,15 @@ h2 {
         font-size: 14px;
         font-weight: 450;
         text-align: center;
+    }
+}
+@media (max-width: 860px) {
+    #logo img {
+        width: 7rem;
+        margin-bottom: -6vw;
+    }
+    .nav {
+        writing-mode: horizontal-tb;
+        text-align: right;
     }
 }

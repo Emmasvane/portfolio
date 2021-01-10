@@ -41,6 +41,14 @@ h2 {
     margin-bottom: 2vw;
     margin-top: 3vw;
 }
+#logo img {
+    width: 8rem;
+    margin-bottom: -3vw;
+    margin-left: 2vw;
+}
+#logo {
+    width: 7rem;
+}
 
 /* Navigation mobil og Ipad højformat */
 
@@ -92,5 +100,15 @@ h2 {
         display: inline-grid;
         grid-template-columns: 1fr 1fr;
         margin-top: 3vw;
+    }
+}
+@media (max-width: 860px) {
+    #logo img {
+        width: 7rem;
+        margin-bottom: -6vw;
+    }
+    .nav {
+        writing-mode: horizontal-tb;
+        text-align: right;
     }
 }
