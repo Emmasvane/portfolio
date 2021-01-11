@@ -47,6 +47,16 @@ h2 {
     margin-bottom: 4vw;
     margin-top: -3vw;
 }
+h1 {
+    font-family: 'Spartan', sans-serif;
+    text-transform: uppercase;
+    color: #1F3140;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 4vw;
+    margin-top: -3vw;
+}
 #stor {
     position: absolute;
     top: 28vw;

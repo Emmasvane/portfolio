@@ -26,7 +26,7 @@ li {
     margin-top: 2vw;
 }
 #section_2 h3,
-#section_3 h3 {
+#section_3 h2 {
     padding: 1rem 1rem;
     font-family: 'Spartan', sans-serif;
     color: #1F3140;
@@ -36,7 +36,7 @@ li {
     font-size: 1rem;
     line-height: 30px;
 }
-#section_3 h3 {
+#section_3 h2 {
     margin-left: 0vw;
     margin-top: -4vw;
 }
@@ -83,6 +83,9 @@ li {
         top: 15.8vw;
     }
     h2 {
+        font-size: 17px;
+    }
+    h1 {
         font-size: 17px;
     }
     li {
