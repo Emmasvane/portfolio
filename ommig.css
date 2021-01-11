@@ -7,7 +7,7 @@
 }
 #section_2 img {
     display: grid;
-    width: 100%;
+    width: 90%;
 }
 #section_2 ul,
 #section_3 ul {
@@ -149,14 +149,14 @@ li {
         padding: 1rem 1rem;
         border-top: 1px solid #1F3140;
         margin-bottom: 2vw;
-        margin-top: -5vw;
+        margin-top: -1vw;
     }
 }
 @media (min-width: 1000px) {
     #section_2 ul img {
-        width: 67%;
-        margin-top: 5vw;
-        margin-left: 5vw;
+        width: 50%;
+        margin-top: 3vw;
+        margin-left: 8vw;
         border-radius: 25px;
     }
     #section_2 ul img {

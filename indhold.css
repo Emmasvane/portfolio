@@ -18,6 +18,42 @@ h2 {
     margin-bottom: -2vw;
     margin-top: 37px;
 }
+h3 {
+    font-family: 'Spartan', sans-serif;
+    text-transform: uppercase;
+    color: #1F3140;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 37px;
+    margin-left: 10vw;
+}
+#section_2 ul {
+    font-family: 'Spartan', sans-serif;
+    font-size: 14px;
+    color: #1F3140;
+    line-height: 30px;
+    margin-left: 10vw;
+    margin-right: 5vw;
+}
+#section_2 p {
+    font-family: 'Spartan', sans-serif;
+    font-size: 14px;
+    color: #1F3140;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    word-spacing: 0.1rem;
+    line-height: 1.9rem;
+}
+#section_2 a {
+    font-family: 'Spartan', sans-serif;
+    text-transform: uppercase;
+    color: #1F3140;
+    font-size: 20px;
+    font-weight: 400;
+}
+#section_2 a:hover {
+    opacity: 0.7;
+}
 .icon {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -199,6 +235,13 @@ body {
         opacity: 1
     }
 }
+iframe {
+    display: block;
+    margin: 0 auto;
+    margin-top: 3vw;
+    width: 560px;
+    height: 315px;
+}
 
 /* Navigation mobil og Ipad højformat */
 
@@ -227,6 +270,10 @@ body {
     }
     .slideshow-container {
         margin-top: 12vw;
+    }
+    iframe {
+        width: 280px;
+        height: 157.5px;
     }
 }
 

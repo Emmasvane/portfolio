@@ -11,12 +11,41 @@ h2 {
     margin-bottom: 4vw;
     margin-top: -3vw;
 }
+p {
+    font-family: 'Spartan', sans-serif;
+    font-size: 14px;
+    color: #1F3140;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    word-spacing: 0.1rem;
+    line-height: 1.9rem;
+}
+#section_3 a {
+    font-family: 'Spartan', sans-serif;
+    text-transform: uppercase;
+    color: #1F3140;
+    font-size: 20px;
+    font-weight: 400;
+}
+#section_3 a:hover {
+    opacity: 0.7;
+}
 .container2 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: -1vw;
     width: 70%;
+}
+h2 {
+    font-family: 'Spartan', sans-serif;
+    text-transform: uppercase;
+    color: #1F3140;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 4vw;
+    margin-top: -3vw;
 }
 #stor {
     position: absolute;
@@ -59,6 +88,12 @@ h2 {
 }
 #logo {
     width: 7rem;
+}
+#section_3 img {
+    width: 40%;
+}
+.container_7 img {
+    border-radius: 25px;
 }
 
 /* Navigation mobil og Ipad højformat */
@@ -123,6 +158,16 @@ h2 {
         font-family: 'Spartan', sans-serif;
         font-size: 14px;
         color: #1F3140;
+    }
+    .container_7 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -15vw;
+        margin-bottom: 6vw;
+    }
+    #section_3 h2 {
+        margin-top: 2vw;
     }
 }
 
@@ -266,6 +311,31 @@ h2 {
         font-size: 14px;
         font-weight: 450;
         text-align: center;
+    }
+    #section_3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 2vw;
+        align-content: center;
+    }
+    .container_8 {
+        margin-top: 7vw;
+    }
+    .container_7 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #section_3 p {
+        text-align: left;
+        margin-left: 0;
+    }
+    #section_3 h2 {
+        text-align: left;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-bottom: 1px solid #1F3140;
     }
 }
 @media (max-width: 860px) {

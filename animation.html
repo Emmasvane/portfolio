@@ -4,8 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
     <title>Tema 4 Animation</title>
-    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="animation.css">
     <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
@@ -35,21 +36,32 @@
     <main>
         <section id="section_1">
             <h1>4. Grundlæggende Animation</h1>
-            <h2>Assetliste, designdokumentation &amp; individuelt spil</h2>
+            <h2>Designdokumentation, assetliste &amp; individuelt spil</h2>
             <div class="slideshow-container">
 
                 <div class="mySlides fade">
-                    <img src="billeder/responsivesite.jpg" style="width:50%">
+                    <img src="billeder/animation.jpg" style="width:50%">
                 </div>
 
                 <div class="mySlides fade">
-                    <img src="billeder/web2.jpg" style="width:50%">
+                    <img src="billeder/spilskitse.jpg" style="width:50%">
                 </div>
 
                 <div class="mySlides fade">
-                    <img src="billeder/web.jpg" style="width:50%">
+                    <img src="billeder/figure.jpg" style="width:50%">
                 </div>
-
+                <div class="mySlides fade">
+                    <img src="billeder/startspil.jpg" style="width:50%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="billeder/aktivitetsdiagram.jpg" style="width:45%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="billeder/statemachine.jpg" style="width:50%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="billeder/vundetspil.jpg" style="width:50%">
+                </div>
                 <!--knapper-->
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
@@ -61,10 +73,25 @@
                 <span class="dot" onclick="currentSlide(1)"></span>
                 <span class="dot" onclick="currentSlide(2)"></span>
                 <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+
             </div>
         </section>
         <section id="section_2">
-
+            <h3>Opgave</h3>
+            <p>På tema 4 skulle jeg kode et spil ved at lave interaktive animationer på et website. Spillets koncept og ide var valgfrit, så jeg endte ud med et spil om en politihund der leder efter spor, for at fange en tyv. Derudover skulle jeg lave en assetliste på et seperat website. Hele processen bag blev dokumenteret i designdokumentations-opagven.</p>
+            <p>Nye ting jeg lærte:</p>
+            <ul>
+                <li>JavaScript, Jquery og filformatet SVG.</li>
+                <li>Aktivitetsdiagrammer og state machine diagrammer, skitseringsteknikkeer og idegenererings-teknikker</li>
+                <li>At arbejde professionelt med formgivning af grafiske elementer (i Illustrator).</li>
+            </ul>
+            <p>Assetlisten kan ses <a href="http://emmasvane.dk/kea/04-animation/assets/assetliste.html">her</a></p>
+            <p>Spillet "Fang Tyven" kan spilles <a href="http://emmasvane.dk/kea/04-animation/spil/index.html">her</a></p>
+            <p>dokumentationen kan ses <a href="billeder/dokumentation.pdf">her</a></p>
         </section>
     </main>
     <footer>

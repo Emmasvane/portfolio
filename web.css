@@ -41,7 +41,8 @@ h3 {
     color: #1F3140;
     margin-left: 10vw;
     margin-right: 10vw;
-    line-height: 3vw;
+    word-spacing: 0.1rem;
+    line-height: 1.9rem;
 }
 #section_2 a {
     font-family: 'Spartan', sans-serif;

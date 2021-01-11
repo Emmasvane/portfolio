@@ -4,8 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
     <title>Tema 5 Indhold</title>
-    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="indhold.css">
     <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
@@ -33,35 +34,68 @@
         </nav>
     </header>
     <main>
-        <h1>5. Grundlæggende Indhold</h1>
-        <h2>05.01.01 Pilotprojekt &amp; 05.03.01 Redesign</h2>
-        <div class="slideshow-container">
+        <section id="section_1">
+            <h1>5. Grundlæggende Indhold</h1>
+            <h2>05.01.01 Pilotprojekt &amp; 05.03.01 Redesign</h2>
+            <div class="slideshow-container">
 
-            <div class="mySlides fade">
-                <img src="billeder/responsivesite.jpg" style="width:50%">
+                <div class="mySlides fade">
+                    <img src="billeder/pilotprojekt.jpg" style="width:50%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="billeder/redesign.jpg" style="width:50%">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="billeder/redesign_video.jpg" style="width:50%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="billeder/kontaktside.jpg" style="width:50%">
+                </div>
+                <!--knapper-->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
+            <br>
 
-            <div class="mySlides fade">
-                <img src="billeder/web2.jpg" style="width:50%">
+            <!-- cirkler i bunden -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+
             </div>
-
-            <div class="mySlides fade">
-                <img src="billeder/web.jpg" style="width:50%">
-            </div>
-
-            <!--knapper-->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <br>
-
-        <!-- cirkler i bunden -->
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
-
+        </section>
+        <section id="section_2">
+            <h3>Opgave 1</h3>
+            <p>I pilotprojekt opgaven var vi opdelt i grupper. I gruppen skulle vi interviewe og filme en person med en passion. Derefter skulle vi hver især redigere video, i premiere pro, og lydmateriale, i audition, til vores egen version af projektet. Min version kan ses her på siden</p>
+            <p>Nye ting jeg lærte:</p>
+            <ul>
+                <li>Introduktion til hvordan videoproduktion fungerer (præmis, log-line, koncept og storyboard).</li>
+                <li>Optagelse af video og redigering i Premiere pro.</li>
+                <li>Optagelse af ekstern lyd og redigering deraf i Audition.</li>
+                <li>Forståelse for forskellige klippeteknikker.</li>
+            </ul>
+            <iframe src="https://www.youtube.com/embed/abCJB945EYQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>Opgave 2</h3>
+            <p>Den sidste opgave på semestret var redesign gruppeopgaven. Her skulle vi i gruppen selv finde en virksomhed, som vi både lavede redesign og indholdsproduktion af video og stillfotos for. En fra gruppen kendte i forvejen ejerne til frisørvirksomheden HairloungeCph, og det var dermed oplagt at vælge dem.</p>
+            <p>På den redesignet side stod jeg for kontakt-siden.</p>
+            <p>Billeder fra siden kan ses øverst på siden.</p>
+            <p>Nye ting jeg lærte:</p>
+            <ul>
+                <li>Lært nyt CSS og Java Script i form af burgermenu.</li>
+                <li>At lave og bruge et scrum board på trello.</li>
+                <li>At lave Bert-test (Bipolær, Emotionel, Respons, Test).</li>
+                <li>Hvor multimediedesigneres placering er i værdikæden</li>
+                <li>At benytte Github og uploade til Netlify</li>
+                <li>At arbejde på basis af double diamond-metoden (discover-define-develop-deliver)</li>
+            </ul>
+            <p>Resultatet af gruppeprojektet kan ses <a href="https://hairlounge-redesign.netlify.app">her</a></p>
+            <p>Se processdokumentet, som dokumenterer vores arbejdsproces <a href="billeder/HairLoungeCph.pdf">her</a></p>
+            <p>Feedback fra pitch af redesign kan ses <a href="https://docs.google.com/document/d/13ZQ-sqvHn7D4O6DugD9tRPXkb34XIYxTwUFfENFhbGw/edit?usp=sharing">her</a></p>
+        </section>
     </main>
     <footer>
         <div class="footer_grid container">
