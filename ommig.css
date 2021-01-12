@@ -27,6 +27,7 @@ h1 {
     list-style: none;
     text-align: center;
     line-height: 30px;
+    margin-left: 3vw;
 }
 #section_3 ul {
     margin-right: 2.5vw;
@@ -156,9 +157,6 @@ li {
     .top2 img {
         margin-left: 8.4vw;
     }
-    #section_2 ul img {
-        display: none;
-    }
     .linje {
         max-width: 1200px;
         margin: 0 auto;
@@ -175,13 +173,13 @@ li {
         margin-left: 11vw;
         border-radius: 25px;
     }
-    #section_2 .col img {
-        display: block;
-    }
 }
 @media (max-width: 1112px) {
     .linje {
         margin-top: 0vw;
+    }
+    #section_2 .col img {
+        display: none;
     }
 }
 @media (max-width: 860px) {
