@@ -90,6 +90,18 @@ header .container {
 menupunkter {
     text-align: center;
 }
+.nav2 a {
+    text-decoration: none;
+    font-family: 'Spartan', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-right: 0;
+    ;
+}
+.nav2 {
+    margin-top: 2vw;
+    margin-left: 32vw;
+}
 
 /* links */
 
@@ -275,6 +287,15 @@ iframe {
     iframe {
         width: 280px;
         height: 157.5px;
+    }
+    .nav2 {
+        margin-top: 11vw;
+        margin-left: 3vw;
+    }
+    .nav2 a {
+        font-size: 13px;
+        margin-right: 2vw;
+        margin-left: 1vw;
     }
 }
 
