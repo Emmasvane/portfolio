@@ -108,7 +108,7 @@ li {
     #section_2 h3 {
         margin-top: -7vw;
     }
-    .polaroid img {
+    #section_2 .col img {
         display: none;
     }
 }
@@ -156,7 +156,7 @@ li {
     .top2 img {
         margin-left: 8.4vw;
     }
-    #section_2 .polaroid img {
+    #section_2 ul img {
         display: none;
     }
     .linje {
@@ -169,13 +169,13 @@ li {
     }
 }
 @media (min-width: 1000px) {
-    #section_2 .polaroid img {
+    #section_2 .col img {
         width: 45%;
         margin-top: 3vw;
         margin-left: 11vw;
         border-radius: 25px;
     }
-    #section_2 .polaroid img {
+    #section_2 .col img {
         display: block;
     }
 }
