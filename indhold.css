@@ -297,8 +297,8 @@ iframe {
         margin-right: 2vw;
         margin-left: 1vw;
     }
-    .mySlides img {
-        height: 90vh;
+    .mySlides {
+        height: 50px;
     }
 }
 

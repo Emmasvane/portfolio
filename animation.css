@@ -175,6 +175,7 @@ body {
     display: none;
 }
 .mySlides img {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
@@ -288,8 +289,8 @@ body {
         margin-right: 2vw;
         margin-left: 1vw;
     }
-    .mySlides img {
-        height: 90vh;
+    .mySlides {
+        height: 50px;
     }
 }
 
