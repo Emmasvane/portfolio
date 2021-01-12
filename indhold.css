@@ -1,6 +1,3 @@
-.mySlides img {
-    height: auto;
-}
 h1 {
     font-family: 'Spartan', sans-serif;
     text-transform: uppercase;
@@ -182,6 +179,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
+    width: 50%;
+    height: auto;
 }
 
 /* Next & previous buttons */
@@ -299,9 +298,6 @@ iframe {
         font-size: 13px;
         margin-right: 2vw;
         margin-left: 1vw;
-    }
-    .mySlides {
-        height: 200px;
     }
 }
 
