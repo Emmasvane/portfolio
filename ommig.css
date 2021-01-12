@@ -14,11 +14,18 @@
 #section_2 ul,
 #section_3 ul {
     font-family: 'Spartan', sans-serif;
-    font-size: 14px;
     color: #1F3140;
     list-style: none;
     text-align: center;
     font-size: 0.8rem;
+    line-height: 30px;
+}
+#section_2 h1 {
+    font-family: 'Spartan', sans-serif;
+    font-size: 19px;
+    color: #1F3140;
+    list-style: none;
+    text-align: center;
     line-height: 30px;
 }
 #section_3 ul {
@@ -94,14 +101,14 @@ li {
     li {
         font-size: 12px;
     }
-    #section_2 ul {
+    #section_2 h1 {
         margin: 5vw;
         padding: 0;
     }
     #section_2 h3 {
         margin-top: -7vw;
     }
-    #section_2 ul img {
+    #section_2 .col img {
         display: none;
     }
 }
@@ -162,13 +169,13 @@ li {
     }
 }
 @media (min-width: 1000px) {
-    #section_2 ul img {
-        width: 50%;
+    #section_2 .col img {
+        width: 45%;
         margin-top: 3vw;
-        margin-left: 8vw;
+        margin-left: 11vw;
         border-radius: 25px;
     }
-    #section_2 ul img {
+    #section_2 .col img {
         display: block;
     }
 }
