@@ -229,8 +229,8 @@ body {
 /* Fading animation */
 
 .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
 }
@@ -291,6 +291,9 @@ body {
         font-size: 13px;
         margin-right: 2vw;
         margin-left: 1vw;
+    }
+    .mySlides {
+        height: 200px;
     }
 }
 
