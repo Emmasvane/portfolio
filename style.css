@@ -1,5 +1,6 @@
 .card img {
     width: 60%;
+    height: auto;
 }
 h2 {
     font-family: 'Spartan', sans-serif;
@@ -90,20 +91,24 @@ h1 {
     margin-right: auto;
     margin-top: 2vw;
     width: 25%;
+    height: auto;
 }
 #logo img {
     width: 8rem;
     margin-bottom: -3vw;
     margin-left: 2vw;
+    height: auto;
 }
 #logo {
     width: 7rem;
 }
 #section_3 img {
-    width: 40%;
+    width: 35%;
+    height: auto;
 }
 .container_7 img {
     border-radius: 25px;
+    height: auto;
 }
 
 /* Navigation mobil og Ipad højformat */
@@ -162,6 +167,7 @@ h1 {
     }
     .card img {
         border-radius: 25px;
+        height: auto;
     }
     .card p {
         margin-left: 3vw;
@@ -173,7 +179,7 @@ h1 {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: -15vw;
+        margin-top: -13vw;
         margin-bottom: 6vw;
     }
     #section_3 h2 {
@@ -247,6 +253,7 @@ h1 {
         backface-visibility: hidden;
         margin-left: auto;
         margin-right: auto;
+        height: auto;
     }
     .image {
         opacity: 0.5;
@@ -267,6 +274,7 @@ h1 {
         backface-visibility: hidden;
         margin-left: auto;
         margin-right: auto;
+        height: auto;
     }
     .image2 {
         opacity: 0.5;
@@ -287,6 +295,7 @@ h1 {
         backface-visibility: hidden;
         margin-left: auto;
         margin-right: auto;
+        height: auto;
     }
     .image3 {
         opacity: 0.5;
@@ -307,6 +316,7 @@ h1 {
         backface-visibility: hidden;
         margin-left: auto;
         margin-right: auto;
+        height: auto;
     }
     .image4 {
         opacity: 0.5;

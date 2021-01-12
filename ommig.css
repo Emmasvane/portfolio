@@ -4,10 +4,12 @@
     margin-right: auto;
     margin-top: 2vw;
     width: 25%;
+    height: auto;
 }
 #section_2 img {
     display: grid;
     width: 90%;
+    height: auto;
 }
 #section_2 ul,
 #section_3 ul {
@@ -49,6 +51,7 @@ li {
     width: 8rem;
     margin-bottom: -3vw;
     margin-left: 2vw;
+    height: auto;
 }
 #logo {
     width: 7rem;
@@ -121,6 +124,7 @@ li {
     }
     .top img {
         position: relative;
+        height: auto;
     }
     .top2 img {
         width: 82%;
@@ -128,6 +132,7 @@ li {
         margin-top: 1.4vw;
         margin-left: 8vw;
         opacity: 0.5;
+        height: auto;
     }
     #section_2 .container {
         display: grid;
@@ -137,6 +142,7 @@ li {
     }
     #section_2 img {
         margin-top: -4vw;
+        height: auto;
     }
 }
 @media (min-width: 672px) {
