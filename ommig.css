@@ -20,7 +20,7 @@
     font-size: 0.8rem;
     line-height: 30px;
 }
-#section_2 h1 {
+h1 {
     font-family: 'Spartan', sans-serif;
     font-size: 19px;
     color: #1F3140;
@@ -108,7 +108,7 @@ li {
     #section_2 h3 {
         margin-top: -7vw;
     }
-    #section_2 .col img {
+    .polaroid img {
         display: none;
     }
 }
@@ -156,7 +156,7 @@ li {
     .top2 img {
         margin-left: 8.4vw;
     }
-    #section_2 ul img {
+    #section_2 .polaroid img {
         display: none;
     }
     .linje {
@@ -169,13 +169,13 @@ li {
     }
 }
 @media (min-width: 1000px) {
-    #section_2 .col img {
+    #section_2 .polaroid img {
         width: 45%;
         margin-top: 3vw;
         margin-left: 11vw;
         border-radius: 25px;
     }
-    #section_2 .col img {
+    #section_2 .polaroid img {
         display: block;
     }
 }
